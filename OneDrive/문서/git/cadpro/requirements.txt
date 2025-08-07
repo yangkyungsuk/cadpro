@@ -1,0 +1,23 @@
+# CAD 파일 처리
+ezdxf>=1.1.0
+aspose-cad
+
+# 데이터 처리 및 계산
+numpy>=1.24.0
+pandas>=2.0.0
+shapely>=2.0.0  # 기하학적 계산
+
+# 웹 프레임워크 (선택적)
+fastapi>=0.100.0
+uvicorn>=0.23.0
+python-multipart>=0.0.6
+
+# 파일 입출력
+openpyxl>=3.1.0  # Excel 출력
+reportlab>=4.0.0  # PDF 생성
+pillow>=10.0.0  # 이미지 처리
+
+# 개발 도구
+pytest>=7.4.0
+black>=23.0.0
+pylint>=2.17.0
