@@ -691,7 +691,7 @@ class SimpleHierarchicalTable(QTableWidget):
         # parent_widget이 있고 SelectionHelperDialog가 있는지 확인
         if hasattr(self, 'parent_widget') and self.parent_widget:
             # parent_widget에서 SelectionHelperDialog 가져오기
-            from CAD_Quantity_Pro_Simple import SelectionHelperDialog
+            from CAD_Quantity_Pro import SelectionHelperDialog
             
             # 선택 도우미 대화상자 표시
             dialog = SelectionHelperDialog(self, self.doc, selected_objects, row)
