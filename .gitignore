@@ -1,0 +1,93 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.env
+
+# PyQt
+*.ui.autosave
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Project specific
+*.dwg
+*.dxf
+*.bak
+temp/
+output/
+*.xlsx
+*.xls
+~$*
+
+# Distribution
+dist/
+build/
+*.spec
+*.exe
+
+# Logs
+*.log
+
+# Test files
+test_*.py
+
+# Backup files
+backup/
+*_backup*.py
+*_Fixed.py
+*_Structured.py
+
+# Temporary files
+nul
+*.tmp
+
+# AutoCAD files
+*.dwl
+*.dwl2
+*.sv$
+
+# PDF files
+*.pdf
+
+# Extra batch files
+build_*.bat
+
+# Extra documentation
+README_*.md
+COMPLETION_*.md
+SELECTION_*.md
+*_가이드.md
+*_설계.md
+*_사용법.md
+*_처리법.md
+
+# Directories to ignore
+cad_pro/
+cad_quantity_pro/
+cad_quantity_system/
+structural_quantity/
+
+# Various test and utility scripts
+area_analyzer.py
+block_manager.py
+window_*.py
+auto_clear_cache.py
+autocad_force_document.py
+clear_com_cache.py
+create_rebar_sample.py
+fix_*.py
+integrate_*.py
+structured_quantity_table.py
